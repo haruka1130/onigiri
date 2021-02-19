@@ -43,3 +43,45 @@
     opacity: 0.8;
 
 }
+
+@media (max-width: 559px){
+    
+    .header-logo{
+        padding:0px 10px;
+        font-size:8px;
+    }
+    
+    header{
+        background-color:orangered;
+        height: 100px;
+        position: fixed;
+        z-index: 2;
+        top:0;
+        left:0;
+        width: 100%;
+    }
+    
+    .header-list li{
+        padding: 5px 20px 0px 0px;
+        font-size: 14px;
+    }
+    
+    .header-list{
+        float:left;
+    }
+    
+    .user_name{
+        font-weight: bold;
+        color: rgb(54, 101, 128);
+        font-size: 13px;
+        position: absolute;
+        top:0;
+        left:80%;
+    }
+    
+    
+    body{
+        margin-top: 110px;
+    }
+    
+    }
