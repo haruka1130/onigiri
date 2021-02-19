@@ -8,8 +8,9 @@
     <%=post.title%><br>
     <img src="<%="/diary_images/#{post.diary_image_name}"%>" class="self-icon">
     <div class="bollen-right">
+    <div class="p">
     <%=link_to(post.content,"/posts/#{post.id}")%>
-    </div><br><br>
+    </div></div><br><br>
 <%end%>
 <%else%>
 日記がありません
