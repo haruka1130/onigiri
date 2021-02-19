@@ -103,7 +103,7 @@
         border-radius: 12px; 
         background-color: #fff;
         opacity: 0.8;
-        width: 300px;
+        width: 70%px;
         height: 50px;
         position:relative;
         left:30%;
@@ -112,7 +112,7 @@
     
      .p{
          position: absolute;
-         width: 300px;
+         width: 70%;
          height:50px;
          display: -webkit-box;
          -webkit-box-orient: vertical;
@@ -126,7 +126,7 @@
          width: 50px;
          float: left;
          position: relative;
-         left:15%;
+         left:10%;
      }
      
      .diary_icon {
@@ -150,7 +150,7 @@
         background-color: #fff;
         opacity: 0.8; 
         display: inline-block;
-        width: 500px;
+        width: 90%;
     }
     
     .title{
@@ -159,7 +159,7 @@
         background-color: #fff;
         opacity: 0.8;
         display: inline-block;
-        width: 500px;
+        width: 90%;
     }
     
     .content{
@@ -169,8 +169,8 @@
          opacity: 0.8; 
          position: relative;
          display: inline-block;
-         max-width: 500px;
-         min-width: 500px;
+         max-width: 90%;
+         min-width: 90%;
          min-height: 300px;
          overflow-y:scroll;
      }
