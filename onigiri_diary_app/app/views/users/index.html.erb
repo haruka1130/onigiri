@@ -4,7 +4,8 @@
 <h3>ユーザー一覧</h3>
 <% @users.each do|user| %>
     <img src="<%="/user_images/#{user.user_image}"%>" class="self-icon-user-index">
-    <%=link_to(user.name,"/users/#{user.id}")%><br><br>
+    <div class="p">
+    <%=link_to(user.name,"/users/#{user.id}")%></div><br><br>
 <%end%>
 </div>
 </div>
